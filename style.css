@@ -59,3 +59,52 @@ header {
   margin: 0;
   font-size: 24px;
 }
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px;
+}
+
+.feature-1, .feature-2, .feature-3 {
+  aspect-ratio: .7 / 1;
+  max-width: 448px;
+  min-width: 0;
+  flex: 1;
+  border: solid 2px var(--brand-color);
+  border-radius: 50px;
+}
+
+.feature-title  {
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 448 / 277;
+  margin: 0;
+  border-radius: 50px 50px 0 0; 
+}
+
+.feature-1 .feature-title {
+  background-image: url(Feature1.png);
+}
+
+.feature-2 .feature-title {
+  background-image: url(Feature2.png);
+}
+
+.feature-3 .feature-title {
+  background-image: url(Feature3.png);
+}
+
+.feature-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.feature {
+  margin: 49px auto;
+  font-size: 20px;
+  width: 16em;
+}
