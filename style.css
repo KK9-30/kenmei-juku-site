@@ -108,3 +108,42 @@ header {
   font-size: 20px;
   width: 16em;
 }
+
+.price {
+  border: solid var(--brand-color) 10px;
+  border-radius: 50px;
+  width: 45%;
+  margin: 188px auto 0;
+  padding: 50px 200px 50px 70px;
+}
+
+.target {
+  font-size: 32px;
+  display: inline;
+  font-weight: normal;
+  margin-top: 50px;
+  padding-bottom: 6px;
+  background-image: url(Line\ 1.png);
+  background-size: 125px;
+  background-repeat: repeat-x;
+  background-position: left bottom;
+}
+
+.elementary {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grade {
+  margin:auto auto auto 70px;
+}
+
+.middle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price p {
+  margin: 44px 0 0;
+  line-height: 2;
+}
