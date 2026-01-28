@@ -190,3 +190,25 @@ header {
   margin: 100px 0 120px;
 }
 
+footer {
+  background-color: var(--brand-color);
+  height: 160px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer img {
+  width: 170px;
+  height: 64px;
+  position: absolute;
+  right: 50%;
+}
+
+footer p {
+  margin: 0;
+  font-size: 20px;
+  position: absolute;
+  left: calc(50% + 56px);
+}
