@@ -66,7 +66,9 @@ header {
   margin: 24px;
 }
 
-.feature-1, .feature-2, .feature-3 {
+.feature-1,
+.feature-2,
+.feature-3 {
   aspect-ratio: .7 / 1;
   max-width: 448px;
   min-width: 0;
@@ -75,12 +77,12 @@ header {
   border-radius: 50px;
 }
 
-.feature-title  {
+.feature-title {
   max-width: 100%;
   height: auto;
   aspect-ratio: 448 / 277;
   margin: 0;
-  border-radius: 50px 50px 0 0; 
+  border-radius: 50px 50px 0 0;
 }
 
 .feature-1 .feature-title {
@@ -109,7 +111,7 @@ header {
   width: 16em;
 }
 
-.price {
+.price, .free-trial {
   border: solid var(--brand-color) 10px;
   border-radius: 50px;
   width: 45%;
@@ -117,14 +119,14 @@ header {
   padding: 50px 200px 50px 70px;
 }
 
-.target {
+.target, .trial {
   font-size: 32px;
   display: inline;
   font-weight: normal;
   margin-top: 50px;
   padding-bottom: 6px;
   background-image: url(Line\ 1.png);
-  background-size: 125px;
+  background-size: 200px;
   background-repeat: repeat-x;
   background-position: left bottom;
 }
@@ -135,7 +137,7 @@ header {
 }
 
 .grade {
-  margin:auto auto auto 70px;
+  margin: auto auto auto 70px;
 }
 
 .middle {
@@ -143,7 +145,8 @@ header {
   justify-content: space-between;
 }
 
-.price p {
+.price p, .free-trial p {
   margin: 44px 0 0;
   line-height: 2;
 }
+
