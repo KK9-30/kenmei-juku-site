@@ -162,6 +162,10 @@ header {
 }
 
 .winter button {
+  all: unset;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 0 20px gray;
   width: 43%;
   aspect-ratio: 13 / 5;
   border: solid #0af 20px;
@@ -170,6 +174,14 @@ header {
   color: #fff;
   font-size: 64px;
   font-weight: bold;
+  transition-property: background-color border;
+  transition-duration: .3s;
+}
+
+.winter button:hover {
+  background-color: #C0EAFF;
+  border: solid 20px #80D4FF;
+  transform: scale(1.01);
 }
 
 .button {
