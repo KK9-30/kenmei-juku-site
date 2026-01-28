@@ -150,3 +150,31 @@ header {
   line-height: 2;
 }
 
+.text {
+  margin: 130px 0 0 0;
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+}
+
+.text span {
+  font-size: 24px;
+}
+
+.winter button {
+  width: 43%;
+  aspect-ratio: 13 / 5;
+  border: solid #0af 20px;
+  border-radius: 50px;
+  background-color: var(--brand-color);
+  color: #fff;
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0 120px;
+}
+
