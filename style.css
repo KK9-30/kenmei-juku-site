@@ -161,9 +161,11 @@ header {
   font-size: 24px;
 }
 
-.winter button {
+.winter a {
   all: unset;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   box-shadow: 0 0 20px gray;
   width: 43%;
@@ -178,7 +180,7 @@ header {
   transition-duration: .3s;
 }
 
-.winter button:hover {
+.winter a:hover {
   background-color: #C0EAFF;
   border: solid 20px #80D4FF;
   transform: scale(1.01);
