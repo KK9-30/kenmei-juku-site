@@ -2,4 +2,4 @@
 ターゲット: 学習塾を探す親
 備考: 親しみやすさと清潔感・信頼感を意識した色合いのデザインにしました。冬期講習のページへの導線のボタンを大きく表示し、だれが見てもたどり着けるようにしています。また、連絡先は見間違い防止のため文字色を黒にしています。
 使用: HTML/CSS/(Figma)
-URL: https://kumano.main.jp/kenmeijuku/index.html
+URL: https://kk-web.site/kenmeijuku/
